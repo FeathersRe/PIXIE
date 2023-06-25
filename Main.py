@@ -3,6 +3,8 @@ from ttkbootstrap.constants import *
 from ttkbootstrap.dialogs import Messagebox
 from tkinter.filedialog import askopenfilename
 from First_degree import first_degree_interface
+import os
+import shutil
 
 class start(ttk.Frame):
     def __init__(self, master):
@@ -72,8 +74,16 @@ class start(ttk.Frame):
     def confirm(self):
         selected_mode = self.mode.get()
         if selected_mode == "First Degree Conversion(FDC1)":
-            img_path = self.filename.get()
-            first_degree_interface(self.root, img_path)
+            selected_file = self.filename.get()
+            if not os.path.exists(os.path.join(os.getcwd(),"Inputs")):
+                os.mkdir(os.path.join(os.getcwd(),"Inputs"))
+            if not os.path.exists(os.path.join(os.getcwd(),"Outputs")):
+                os.mkdir(os.path.join(os.getcwd(),"Outputs"))
+            filename = os.path.basename(selected_file) #Obtaining the filename
+            image_path = os.path.join(os.path.join(os.getcwd(),"Inputs"), filename) 
+            output_path = os.path.join(os.path.join(os.getcwd(),"Outputs"), filename)
+            shutil.copyfile(selected_file, image_path) #Storing the file in the input location
+            first_degree_interface(self.root, image_path, output_path)
         elif selected_mode == "Final Degree Conversion(FDC2)":
             Messagebox.show_info(message="Function under development. Stay tuned!", title="Final Degree Conversion Module")
 
