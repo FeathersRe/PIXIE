@@ -1,8 +1,8 @@
 # PIXIE
 Orbital Project by Team Teriri
-1. Propose Level of Achievement
+1. Propose Level of Achievement: 
 Apollo 11
-2. Project scope
+2. Project scope:
 We aim to deliver a standalone PC application, PIXIE, capable of processing
 image inputs initially in normal art forms, to pixel art outputs exhibiting
 characteristics of the user image, to assist game developers in creating content for
