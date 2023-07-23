@@ -1,5 +1,5 @@
 # PIXIE
-Image Processing Orbital Project by [Team Teriri](https://github.com/FeathersRe/PIXIE)
+Image Processing Project by [Team Teriri](https://github.com/FeathersRe/PIXIE)
 
 ## Propose Level of Achievement:
    
