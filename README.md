@@ -143,7 +143,7 @@ Another issue with the numerical display is instantaneous updates. As the user s
 
 Another issue with our program is that we originally ambitiously set to complete an instantaneous picture preview, where the program is able to fetch the rendered picture and update the current preview after a user executes the render function. However, very similar to the issue with numerical displays, picture displays also have their resources set thanks to the __init__() function which will only execute once at the original call of the class. How to slide in later updates of the picture resource is also under exploration.
 
-## User Manual
+## Tech Stack
 
 ### Necessary Requirements
 To execute PIXIE , you’ll need a Python of version 3.7 and above, and the following Python libraries.
