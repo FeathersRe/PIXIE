@@ -5,6 +5,9 @@ Orbital Project by [Team Teriri](https://github.com/FeathersRe/PIXIE)
    
 Apollo 11
 
+## Project LOG:
+Sir this way→[link](https://github.com/FeathersRe/PIXIE/blob/main/Project%20Log.md)
+
 ##  Project scope:
    
 >We aim to deliver a standalone PC application, PIXIE, capable of processing image inputs initially in normal art forms, to pixel art outputs exhibiting characteristics of the user image, to assist game developers in creating content for non-profitable purposes.
