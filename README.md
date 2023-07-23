@@ -15,7 +15,7 @@ Sir this way→[link](https://github.com/FeathersRe/PIXIE/blob/main/User%20Manua
    
 >We aim to deliver a standalone PC application, PIXIE, capable of processing image inputs initially in normal art forms, to pixel art outputs exhibiting characteristics of the user image, to assist game developers in creating content for non-profitable purposes.
 
-Pixie will provide 2 different fully automated modes of conversion to deal with
+Pixie will provide 2 different modes of conversion to deal with
 common usage conditions.
 
 Mode 1 - First Degree Conversion. Under this setting, the generated pixelated
