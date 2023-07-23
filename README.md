@@ -49,7 +49,7 @@ However, as a result of the lack of suitable training resources, the outcome ach
 
 ## System Organisation and General Program Flow
 ### System Organistaion
-![System Diagram](Pics/System Architecture.png)
+![System Diagram](Pics/SystemArchitecture.png)
 ### General Program Flow
 ![Flowchart](Pics/Flowchart.png)
 ##  Core features established and changes in architecture
