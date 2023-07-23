@@ -47,8 +47,11 @@ under this conversion will be very suitable in actual gameplay presentations.~~
 
 However, as a result of the lack of suitable training resources, the outcome achieved while establishing the goal of a standard template was rather unacceptable in actual rendering. Thus, our team decided to instead change our course of development to <b>rendering character head portraits of a standard size<b>. The image of the character depicted in the converted portrait will still take reference of the characteristics of the image input, but now not necessarily always resulting in the same posture. This not only largely reduce our project's workload in terms of adjustments, but still to a great extent fulfill our original intent of helping game developers as dialogue portraits is also another major source of art demand in game development.
 
-## System Architecture and General Program Flow
-
+## System Organisation and General Program Flow
+### System Organistaion
+![System Diagram](Pics/System Architecture.png)
+### General Program Flow
+![Flowchart](Pics/Flowchart.png)
 ##  Core features established and changes in architecture
    
 ###  Changes in first-degree-conversion algorithms
