@@ -35,6 +35,53 @@ Apart from the library requirements, AI image processing also forms an integral 
 - In the Diffusers library’s directory, find convert_original_stable_diffusion_to_diffusers.py. In your command panel, execute
 python ./scripts/convert_original_stable_diffusion_to_diffusers.py --checkpoint_path xxx.ckpt  --dump_path save_dir to load the model into diffusers format.
 - Move the resulted output to PIXIE’s directory, under the sd_model folder.This will mark the successful installation of the Stable diffusion base model.
+  
+![UM1](Pics/um1.png)
+
+#### Deepdanbooru model (https://github.com/KichangKim/DeepDanbooru) 
+The Deepdanbooru AI model can be either installed directly or trained from scratch. For this user manual, we will only cover the direct installation procedures
+- Look for the DeepDanbooru Pretrained Model v3-20211112-sgd-e28 model under releases. Download the corresponding file.
+- Unzip all contents of the file to PIXIE’s directory, under the deepdanbooru_model folder.This will mark the successful installation of Deepdanbooru’s AI model.
+
+![um2](Pics/um2.png)
+
+#### Lastly, PIXIE will require a LORA model to ensure consistent image outputs. 
+For our purposes, we selected the pixel character model from Civitai by afei520 (https://civitai.com/models/72144?modelVersionId=76904)
+- Download the Lora model.
+- Unzip all contents of the file to PIXIE’s directory, under the lora_model folder. This will mark the successful installation of the Lora model.
+
+## User Guide
+
+1. To execute PIXIE, open PIXIE as a folder and click on the Main.py file to initiate the program. The following interface should appear.
+
+![um3](Pics/um3.png)
+
+2. Select your desired Conversion mode and image. Click submit to continue. (It is best that the desired image is of the ‘.png’ format, so as to maximise compatibility
+
+![um4](Pics/um4.png)
+
+### First Degree Conversion
+
+1. If the selected mode is FDC1, the following interface should occur. Adjust the few variables to your desired value and click render to continue.
+
+![um5](Pics/um5.png)
+
+2. The values could be changed and rendered again  if you are not satisfied with the end result. If everything is fine, click on Done and look for the output in the Output folder (under the current working directory).
+
+### Final Degree Conversion
+
+1.  If the selected mode is FDC2, the following interface should occur.
+
+![um6](Pics/um6.png)
+
+2. If you are prepared to start the conversion, click on Render. The following notification should pop-up to notify the beginning of the process.
+
+![um7](Pics/um7.png)
+
+3. When the process is completed. The following notification would pop-up to notify the end of the process.
+
+
+
 
   
 
