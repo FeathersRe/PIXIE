@@ -30,7 +30,7 @@ dialogues and menu presentations.
 
 ![Mode 1 Effect](Pics/fig1.1.png)
 
-~~Mode 2 - Final Degree Conversion. In this mode, Pixie will aim to map the user input
+Mode 2 - Final Degree Conversion. ~~In this mode, Pixie will aim to map the user input
 onto our program’s general character template. To establish this, Pixie will rely on the
 use of AI (with Stable Diffusion as the linkage platform between the image and an AI
 model) to accurately lift out and collect information on important areas of the input
@@ -42,9 +42,11 @@ Diffusion to produce the end product, as well as back-end linking of the platfor
 our software to ensure users will be able to complete all operations by only our
 program’s UI. Ideally, the simplified and easily made-to-move nature of end products
 under this conversion will be very suitable in actual gameplay presentations.~~
-Mode 2 - Final Degree Conversion. As a result of the lack of suitable training resources, the outcome achieved while establishing the goal of a standard template was rather unacceptable in actual rendering. Instead, our team decides to change our course of development to rendering head portraits of characters of a standard size. T
 
 ![Mode 2 Effect](Pics/fig1.2.png)
+
+<b>However, as a result of the lack of suitable training resources, the outcome achieved while establishing the goal of a standard template was rather unacceptable in actual rendering. Thus, our team decided to instead change our course of development to rendering character head portraits of a standard size. The image of the character depicted in the converted portrait will still take reference of the characteristics of the image input, but now not necessarily always resulting in the same posture. This not only largely reduce our project's workload in terms of adjustments, but still largely fulfill our original intent as dialogue portraits is also another major art demand in the development of games.<b>
+
 
 ##  Core features established and changes in architecture
    
