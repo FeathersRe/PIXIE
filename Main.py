@@ -3,7 +3,7 @@ from ttkbootstrap.constants import *
 from ttkbootstrap.dialogs import Messagebox
 from tkinter.filedialog import askopenfilename
 from First_degree import first_degree_interface
-from Second_degree import second_degree_interface
+from Final_degree import final_degree_interface
 import os
 import shutil
 
@@ -86,7 +86,7 @@ class start(ttk.Frame):
         if selected_mode == "First Degree Conversion(FDC1)":
             first_degree_interface(self.root, image_path, output_path)
         elif selected_mode == "Final Degree Conversion(FDC2)":
-            second_degree_interface(self.root, image_path, output_path, filename)
+            final_degree_interface(self.root, image_path, output_path, filename)
 
 if __name__ == "__main__":
     app = ttk.Window("PIXIE 2.0", "litera", resizable = (False, False))
