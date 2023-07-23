@@ -45,8 +45,9 @@ under this conversion will be very suitable in actual gameplay presentations.~~
 
 ![Mode 2 Effect](Pics/fig1.2.png)
 
-<b>However, as a result of the lack of suitable training resources, the outcome achieved while establishing the goal of a standard template was rather unacceptable in actual rendering. Thus, our team decided to instead change our course of development to rendering character head portraits of a standard size. The image of the character depicted in the converted portrait will still take reference of the characteristics of the image input, but now not necessarily always resulting in the same posture. This not only largely reduce our project's workload in terms of adjustments, but still largely fulfill our original intent as dialogue portraits is also another major art demand in the development of games.<b>
+However, as a result of the lack of suitable training resources, the outcome achieved while establishing the goal of a standard template was rather unacceptable in actual rendering. Thus, our team decided to instead change our course of development to <b>rendering character head portraits of a standard size<b>. The image of the character depicted in the converted portrait will still take reference of the characteristics of the image input, but now not necessarily always resulting in the same posture. This not only largely reduce our project's workload in terms of adjustments, but still to a great extent fulfill our original intent of helping game developers as dialogue portraits is also another major source of art demand in game development.
 
+## System Architecture and General Program Flow
 
 ##  Core features established and changes in architecture
    
@@ -152,23 +153,11 @@ Another issue with the numerical display is instantaneous updates. As the user s
 
 Another issue with our program is that we originally ambitiously set to complete an instantaneous picture preview, where the program is able to fetch the rendered picture and update the current preview after a user executes the render function. However, very similar to the issue with numerical displays, picture displays also have their resources set thanks to the __init__() function which will only execute once at the original call of the class. How to slide in later updates of the picture resource is also under exploration.
 
-## Tech Stack
+## Course of work
 
-### Necessary Requirements
-To execute PIXIE , you’ll need a Python of version 3.7 and above, and the following Python libraries.
+## Tech Stack
 #### -OpenCV
 #### -Numpy
 #### -ttkbootstrap
-Do make sure they are installed prior to the execution.
 
-
-
-
-
-
-
-
-
-
-
-
+## Credits
