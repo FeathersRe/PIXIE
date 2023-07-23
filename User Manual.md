@@ -13,6 +13,7 @@ PIXIE utilises AI image rendering algorithms which could take a toll on low-end 
 To execute PIXIE, you will need the following platforms/libraries (they can mostly be installed with PIP):
 - A Python of version 3.10 (Higher versions exists compatibility issues with Pytorch)
 - Pytorch (compatible with CUDA 11.7)
+- Pytorch-Lightning ( pip install pytorch-lightning)
 - Diffusers (https://github.com/huggingface/diffusers)
 - Transformers (https://github.com/huggingface/transformers)
 - Deepdanbooru (https://github.com/KichangKim/DeepDanbooru)
