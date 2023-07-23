@@ -51,30 +51,41 @@
 - Completing MS2 README report
 
 ## Week 7
-> 26 June - 2 July ( Approximately _ Hrs per person)
--
+> 26 June - 2 July ( Approximately 12 Hrs per person)
+- Refinement of UI design
+- Refinement of program logic
+- Experimenting linking between backend program and Stable Diffusion
+- Prototyping for final-degree conversion
+- Weekly Group Disscusion ( Brainstorming, testing)
 
 
 
 
 ## Week 8
-> 3 July - 9 July ( Approximately _ Hrs per person)
--
-
+> 3 July - 9 July ( Approximately 12 Hrs per person)
+- Continuation of refinement of UI design
+- Linking between backend program and Stable Diffusion
+- Prototyping for final-degree conversion
+- Weekly Group Disscusion ( Brainstorming, testing)
 
 
 
 ## Week 9
-> 10 July - 16 July ( Approximately _ Hrs per person)
--
+> 10 July - 16 July ( Approximately 10 Hrs per person)
+- Inplementation of 2nd-degree conversion into main program
+- Final Refinement of UI design
+- Complete debugging and rapid user testing
+- Compilling of Software with Pyinstaller
+- Weekly Group Disscussion ( Ideation of final presentation, testing)
 
 
 
 
 
 ## Week 10
-> 17 July - 23 July ( Approximately 10 Hrs per person)
-- Refinement of Application
+> 17 July - 23 July ( Approximately 12 Hrs per person)
+- Analysing of User feedback
+- Refinement on Program based on user feedback
 - Refinement on README and Project page
 - Refinement on presentation video
 - Refinement on presentation poster
