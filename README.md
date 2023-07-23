@@ -144,15 +144,15 @@ The transition from PySimpleGUI to ttkbootstrap brings a paradigm shift to our p
 
 ## Course of project
 ### Compeleted(as of MS3)
--[x]Establish a functioning General Interface
--[x]Establish a functioning First-Degree-Conversion(FDC1) Interface
--[x]Establish First-Degree-Conversion of basic pixelation functions
--[x]Establish a functioning Final-Degree-Conversion(FDC2) Interface
--[x]Establish Final-Degree-Conversion of in-depth pixelation functions resembling key characteristics
+-[x] Establish a functioning General Interface
+-[x] Establish a functioning First-Degree-Conversion(FDC1) Interface
+-[x] Establish First-Degree-Conversion of basic pixelation functions
+-[x] Establish a functioning Final-Degree-Conversion(FDC2) Interface
+-[x] Establish Final-Degree-Conversion of in-depth pixelation functions resembling key characteristics
 ### Future progresss
--[ ]Establish interactive visual designs in UI
--[ ]General Debugging(Improvement of output quality, compatability with systems etc.)
--[ ]Compilation of Program
+-[ ] Establish interactive visual designs in UI
+-[ ] General Debugging(Improvement of output quality, compatability with systems etc.)
+-[ ] Compilation of Program
 
 ## Tech Stack
 #### -OpenCV
