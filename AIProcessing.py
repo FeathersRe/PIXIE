@@ -5,17 +5,16 @@ from diffusers import StableDiffusionPipeline
 
 def generation(SD_path, Lora_path, prompt, output_path, height, width):
     
-    '''
-    Loading SD base model and Lora model
-    Credits to Haofan Wang, Qixun Wang: https://github.com/cloneofsimo/lora
-    '''
 
-    # load diffusers model
     pipeline = StableDiffusionPipeline.from_pretrained(SD_path,torch_dtype=torch.float32)
     pipeline.scheduler = DPMSolverMultistepScheduler.from_config(pipeline.scheduler.config)
 
-    # load lora weight
     state_dict = load_file(Lora_path)
+
+    '''
+    Fusing Lora model on top of SD base model
+    Credits to Haofan Wang, Qixun Wang: https://github.com/cloneofsimo/lora
+    '''
 
     LORA_PREFIX_UNET = 'lora_unet'
     LORA_PREFIX_TEXT_ENCODER = 'lora_te'
@@ -79,11 +78,11 @@ def generation(SD_path, Lora_path, prompt, output_path, height, width):
         for item in pair_keys:
             visited.append(item)
 
-    pipeline = pipeline.to("cuda")
-
     '''
     Generating the needed picture
     '''
+    
+    pipeline = pipeline.to("cuda")
     with torch.no_grad():
         image = pipeline(prompt=prompt, height=height, width=width, num_inference_steps=25,).images[0]
 
