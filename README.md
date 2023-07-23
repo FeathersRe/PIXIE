@@ -142,21 +142,17 @@ Finally, ttkbootstraps entirely shifts from coding solely based on the reading s
 
 The transition from PySimpleGUI to ttkbootstrap brings a paradigm shift to our program development, as it also marks an architecture change from function-based procedural programming to Object-Oriented procedural programming. With the foundation of the structure being set in this stage, future improvements on UI will be easily adapted to the system.
 
-## Problems encountered and possible areas for improvement
-
-### Control Panel Interface
-
-One issue with our current UI system is that the control panel is not entirely clear in its value setting (refer to Fig 3.3.1). Despite it including commonly seen interaction features such as the scale bar for users to tweak with the variable values, we encountered quite a lot of difficulties in the attempt to further add in a numerical display alongside to scale to help the user have a clearer understanding of the current setting set.
-
-The first issue encountered is executing reasonable truncation to the numerical display. Due to how ttkbootstrap wires its scale bar element, the actual value obtained from the user interaction with the scale bar is very precise and can go up to many decimal places within the scheduled range. Also due to its flexible display nature, if untruncated, the decimal places of the numerical display will still be entirely shown, however, compressing other sectors. However, our attempt on truncating directly on ttkbootstrap’s variable does not yet seem to work. (Still in the progress of debugging round(IntVar()))
-
-Another issue with the numerical display is instantaneous updates. As the user scales the bar to a new position, reflecting this change onto the numerical display is quite a confusing issue. Typical text display in our current ttkbootstrap practices has its value set once at the beginning of the program as a result of the __init__() function. How to make amendments to the original rendered template to change the values is still under exploration.
-
-### Picture Preview
-
-Another issue with our program is that we originally ambitiously set to complete an instantaneous picture preview, where the program is able to fetch the rendered picture and update the current preview after a user executes the render function. However, very similar to the issue with numerical displays, picture displays also have their resources set thanks to the __init__() function which will only execute once at the original call of the class. How to slide in later updates of the picture resource is also under exploration.
-
-## Course of work
+## Course of project
+### Compeleted(as of MS3)
+-[X]Establish a functioning General Interface
+-[X]Establish a functioning First-Degree-Conversion(FDC1) Interface
+-[X]Establish First-Degree-Conversion of basic pixelation functions
+-[X]Establish a functioning Final-Degree-Conversion(FDC2) Interface
+-[X]Establish Final-Degree-Conversion of in-depth pixelation functions resembling key characteristics
+### Future progresss
+-[]Establish interactive visual designs in UI
+-[]General Debugging(Improvement of output quality, compatability with systems etc.)
+-[]Compilation of Program
 
 ## Tech Stack
 #### -OpenCV
