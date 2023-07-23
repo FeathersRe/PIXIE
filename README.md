@@ -54,7 +54,7 @@ However, as a result of the lack of suitable training resources, the outcome ach
 ![Flowchart](Pics/Flowchart.png)
 ##  Core features established and changes in architecture
    
-###  Changes in first-degree-conversion algorithms
+###  First-degree-conversion algorithms
 A crucial step to completing first-degree conversion is being able to identify the
 outline of the image.
 Previously, our group utilised Laplacian Operators in the generation of the image’s
@@ -99,30 +99,12 @@ the x and y axis directions.
 
 ![Fig3.1.5](Pics/fig3.1.5.png)
 
-### Finalisation of first-degree-conversion processing modules
-
-In our original attempt, we allowed two separate modules:1) Pillow image processing 2) OpenCV processing to be present for first-degree conversion. After numerous test trials, we realised that the OpenCV library, as compared to the Pillow image library, has more support towards mathematical methods such as Laplacian and Sobel operators, while too exhibiting important functions such as image resize and image display required for our program. In the idea to simplify our program flow, our team decided to fully employ the OpenCV library for our purposes. 
-
-### Changes in User Control
-Another major shift in our program architecture is that our program has moved from the original fully automated ideal to user-aided generation. This was a result of numerous trials of different test cases, where we realised that it is particularly difficult to set a common set of values for important variables (in our case, these are the relative pixel sizes, the accepted gradient difference, the resultant coloursteps and the degree of darkening for the edges). These are variables that largely link to the quality of our output produced, and the value settings between the acceptable criteria for two different pictures may also differ a lot. Deriving them solely based on the picture input also proved to be a tough road, as user may have their own preferences towards the output according to their needs and the values obtained by the system may not draw the entirely ideal output.
-
-As such, we brought in the idea of a control panel in our design of UI. Key variables are now instead brought out of the CV2 program and set as inputs from the user. Users may now freely the variable settings and look for the most ideal output.
-
-![fig3.3.1](Pics/fig3.3.1.png)
-
-### Established features and changes in UI design
-Lastly, the most noteworthy shift in our submission for milestone 2 is that we eventually finalised our development ideas for our software UI.
-
+### UI design
 Originally, our team implemented PySimpleGUI as our choice of UI library. Though having the nature of being rather easy-to-start and convenient in rendering different UI sectors, we soon find the library to be a lacking choice of UI designing tool.
 
 First of all, PySimpleGUI offers very little customisation choices. Despite it having a considerably large number of themes to choose from, most of them are only oriented amongst the change of colour. This largely limits the room for advanced customisation in intermediate UI designs, fundamentally restricting our program’s improvements on user visuals. 
 
-![fig3.4.1](Pics/fig3.4.1.png)
-
 Secondly, PySimpleGUI is wired such that it has poor sector organisation. Different elements in a UI (E.g. Text, Button, etc) are treated as a single element and mapped onto the general frame. This results in rather tedious editing processes when it comes to editing all elements in the same organisation sector (E.g. the control panel in general), where separate changes will have to be done to all these individual elements to ensure a common UI style.
-
-![fig3.4.2](Pics/fig3.4.2.png)
-
 
 Lastly, PySimpleGUI does not offer flexible styles of layout. The coding of element layouts has to come in their actual reading order, and changes made to a single element (E.g. Changing the length of a text element) could entirely mess up the user interface due to the absence of further adjustments to the layout padding. This creates numerous inconveniences especially in the development phase, as new ideas are being consistently added in and changes to spacing have to be made to ensure the interface remains reasonable.
 
@@ -142,6 +124,9 @@ Finally, ttkbootstraps entirely shifts from coding solely based on the reading s
 
 The transition from PySimpleGUI to ttkbootstrap brings a paradigm shift to our program development, as it also marks an architecture change from function-based procedural programming to Object-Oriented procedural programming. With the foundation of the structure being set in this stage, future improvements on UI will be easily adapted to the system.
 
+### Final-Degree-Conversion Algorithm
+A common way to utilise stable diffusion in image processing is through the use of [StableDiffusionWebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui). However, as our team aims for a fully self-directed approach, the back-end manipulation of the system is most crucial in our implementation. In our attempt, we manage to set up the stable diffusion model particularly with the help of the [Diffusers Lib](https://github.com/huggingface/diffusers/tree/main)'s pipeline feature. The pixel style and general posture(<b>front/side view<b>, with only the upper body visible to resemble the characteristics of portraits) 
+
 ## Course of project
 ### Compeleted(as of MS3)
 - [X] Establish a functioning General Interface
@@ -156,7 +141,7 @@ The transition from PySimpleGUI to ttkbootstrap brings a paradigm shift to our p
 
 ## Tech Stack
 #### -OpenCV
-#### -Numpy
-#### -ttkbootstrap
-
-## Credits
+#### -Pytorch
+#### -TTkbootstrap
+#### -Stable Diffusion
+#### -MORE! Refer to →[User Manual](https://github.com/FeathersRe/PIXIE/blob/main/User%20Manual.md)
