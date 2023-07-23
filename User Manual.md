@@ -58,13 +58,13 @@ For our purposes, we selected the pixel character model from Civitai by afei520 
 
 2. Select your desired Conversion mode and image. Click submit to continue. (It is best that the desired image is of the ‘.png’ format, so as to maximise compatibility
 
-![um4](Pics/um4.png)
+![um5](Pics/um4.png)
 
 ### First Degree Conversion
 
 1. If the selected mode is FDC1, the following interface should occur. Adjust the few variables to your desired value and click render to continue.
 
-![um5](Pics/um5.png)
+![um6](Pics/um5.png)
 
 2. The values could be changed and rendered again  if you are not satisfied with the end result. If everything is fine, click on Done and look for the output in the Output folder (under the current working directory).
 
@@ -72,11 +72,11 @@ For our purposes, we selected the pixel character model from Civitai by afei520 
 
 1.  If the selected mode is FDC2, the following interface should occur.
 
-![um6](Pics/um6.png)
+![um7](Pics/um6.png)
 
 2. If you are prepared to start the conversion, click on Render. The following notification should pop-up to notify the beginning of the process.
 
-![um7](Pics/um7.png)
+![um8](Pics/um7.png)
 
 3. When the process is completed. The following notification would pop-up to notify the end of the process.
 
