@@ -7,7 +7,7 @@ Hence, the following section will cover how our program handles some of the Simp
 
 ### FDC1
 #### Simple
-![S1](Test%20Cases/Test%20Pics/i_1.png)
+![S1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1.png)
 
 #### Moderate
 #### Intricate
