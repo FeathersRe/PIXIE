@@ -7,8 +7,12 @@ Hence, the following section will cover how our program handles some of the Simp
 
 ### FDC1
 #### Simple
-![S1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1.png) ![S1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1_FDC1.png)
-
+Original:
+![S1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1.png) 
+Converted:
+![S1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1_FDC1.png)
+Settings: Pixel_size:5 Tolerance:700 Colourstep: 16 Ink_percentage: 0.7
+Outcome: Acceptable, Lines are accurately identified. Image resemble pixelated 
 ![S2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2.jpg) ![S2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2_FDC1.jpg)
 
 #### Moderate
