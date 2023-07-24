@@ -52,7 +52,7 @@ However, as a result of the lack of suitable training resources, the outcome ach
 ![System Diagram](Pics/SystemArchitecture.png)
 ### General Program Flow
 ![Flowchart](Pics/Flowchart.png)
-##  Core features established and changes in architecture
+##  Core features established
    
 ###  First-degree-conversion algorithms
 A crucial step to completing first-degree conversion is being able to identify the
