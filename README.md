@@ -6,10 +6,10 @@ Image Processing Project by [Team Teriri](https://github.com/FeathersRe/PIXIE)
 Apollo 11
 
 ## Project LOG:
-Sir this way→[link](https://github.com/FeathersRe/PIXIE/blob/main/Project%20Log.md)
+Sir this way→[PROJECT LOG](https://github.com/FeathersRe/PIXIE/blob/main/Project%20Log.md)
 
 ## User Manual:
-Sir this way→[link](https://github.com/FeathersRe/PIXIE/blob/main/User%20Manual.md)
+Sir this way→[USER MANUAL](https://github.com/FeathersRe/PIXIE/blob/main/User%20Manual.md)
 
 ##  Project scope:
    
