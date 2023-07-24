@@ -14,14 +14,25 @@ Hence, the following section will cover how our program handles some of the Simp
 #### Moderate
 ![M1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1.png) ![m1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1_FDC1.png)
 
-![M2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2.png) ![m2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2_FDC1.png)
+![M2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2.jpg) ![m2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2_FDC1.jpg)
 
 #### Intricate
 ![I1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_1.png) ![I1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_1_FDC1.png)
 
-![I2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2.png) ![I2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2_FDC1.png)
+![I2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2.jpg) ![I2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2_FDC1.jpg)
 
 ### FDC2
 #### Simple
+![S1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1.png) ![S1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1_FDC2.png)
+
+![S2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2.png) ![S2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2_FDC2.png)
+
 #### Moderate
+![M1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1.png) ![m1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1_FDC2.png)
+
+![M2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2.jpg) ![m2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2_FDC2.jpg)
+
 #### Intricate
+![I1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_1.png) ![I1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_1_FDC2.png)
+
+![I2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2.jpg) ![I2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2_FDC2.jpg)
