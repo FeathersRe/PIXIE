@@ -6,53 +6,124 @@ For our purpose, the key assessment criteria betweeen the test cases will be deg
 Hence, the following section will cover how our program handles some of the Simple(High colour step), Moderate and Intricate(Low colour step) test cases.
 
 ### FDC1
-Assessment criteria:
+To better evaluate the results, the below table depicts our assessment criteria for FDC1.
+
+<b>Assessment criteria:<b>
 
 ![Criteria1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/criteria1.png) 
 
 #### Simple
-Original:
+<b>Original:<b>
 
 ![S1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1.png) 
 
-Converted:
+<b>Converted:<b>
 
 ![S1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1_FDC1.png)
 
-Settings: Pixel_size:5 Tolerance:700 Colourstep: 16 Ink_percentage: 0.7
+<b>Settings:<b> 
 
-Outcome: Acceptable, Lines are accurately identified and Image resemble pixelation.
-![S2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2.jpg) ![S2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2_FDC1.jpg)
+Pixel_size:5 Tolerance:700 Colourstep: 16 Ink_percentage: 0.7
 
-Settings: Pixel_size:10 Tolerance:500 Colourstep: 16 Ink_percentage: 0.4
+<b>Outcome:<b> Acceptable, Lines are accurately identified and Image resemble pixelation.
 
-Outcome: Acceptable, Lines are accurately identified and Image resemble pixelation.
+![S2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2.jpg)
+
+<b>Converted:<b>
+
+![S2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2_FDC1.jpg)
+
+<b>Settings:<b> 
+
+Pixel_size:10 Tolerance:500 Colourstep: 16 Ink_percentage: 0.4
+
+<b>Outcome:<b> Acceptable, Lines are accurately identified and Image resemble pixelation.
 
 #### Moderate
-![M1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1.png) ![m1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1_FDC1.png)
+<b>Original:<b>
 
-![M2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2.jpg) ![m2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2_FDC1.jpg)
+![M1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1.png) 
+
+<b>Converted:<b>
+
+![m1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1_FDC1.png)
+
+<b>Original:<b>
+
+![M2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2.jpg) 
+
+<b>Converted:<b>
+
+![m2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2_FDC1.jpg)
 
 #### Intricate
-![I1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_1.png) ![I1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_1_FDC1.png)
+<b>Original:<b>
 
-![I2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2.jpg) ![I2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2_FDC1.jpg)
+![I1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_1.png) 
+
+<b>Converted:<b>
+
+![I1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_1_FDC1.png)
+
+<b>Original:<b>
+
+![I2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2.jpg) 
+
+<b>Converted:<b>
+
+![I2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2_FDC1.jpg)
 
 ### FDC2
 Assessment criteria:
 
 ![Criteria2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/criteria2.png) 
 #### Simple
-![S1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1.png) ![S1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1_FDC2.png)
+<b>Original:<b>
 
-![S2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2.jpg) ![S2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2_FDC2.jpg)
+![S1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1.png)
+
+<b>Converted:<b>
+
+![S1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1_FDC2.png)
+
+<b>Original:<b>
+
+![S2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2.jpg) 
+
+<b>Converted:<b>
+
+![S2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2_FDC2.jpg)
 
 #### Moderate
-![M1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1.png) ![m1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1_FDC2.png)
+<b>Original:<b>
 
-![M2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2.jpg) ![m2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2_FDC2.jpg)
+![M1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1.png)
+
+<b>Converted:<b>
+
+![m1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1_FDC2.png)
+
+<b>Original:<b>
+
+![M2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2.jpg) 
+
+<b>Converted:<b>
+
+![m2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_2_FDC2.jpg)
 
 #### Intricate
-![I1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_1.png) ![I1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_1_FDC2.png)
+<b>Original:<b>
 
-![I2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2.jpg) ![I2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2_FDC2.jpg)
+![I1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_1.png)
+
+<b>Converted:<b>
+
+![I1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_1_FDC2.png)
+
+<b>Original:<b>
+
+![I2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2.jpg) 
+
+<b>Converted:<b>
+
+![I2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2_FDC2.jpg)
