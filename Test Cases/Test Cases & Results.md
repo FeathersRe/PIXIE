@@ -7,6 +7,7 @@ Hence, the following section will cover how our program handles some of the Simp
 
 ### FDC1
 #### Simple
+![S1](./Test Pics/s_1.png)
 #### Moderate
 #### Intricate
 
