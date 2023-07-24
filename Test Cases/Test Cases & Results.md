@@ -9,7 +9,7 @@ Hence, the following section will cover how our program handles some of the Simp
 #### Simple
 ![S1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1.png) ![S1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1_FDC1.png)
 
-![S2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2.png) ![S2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2_FDC1.png)
+![S2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2.jpg) ![S2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2_FDC1.jpg)
 
 #### Moderate
 ![M1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1.png) ![m1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1_FDC1.png)
@@ -25,7 +25,7 @@ Hence, the following section will cover how our program handles some of the Simp
 #### Simple
 ![S1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1.png) ![S1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1_FDC2.png)
 
-![S2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2.png) ![S2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2_FDC2.png)
+![S2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2.jpg) ![S2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2_FDC2.jpg)
 
 #### Moderate
 ![M1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1.png) ![m1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1_FDC2.png)
