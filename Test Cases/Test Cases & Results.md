@@ -5,5 +5,12 @@ For our purpose, the key assessment criteria betweeen the test cases will be deg
 
 Hence, the following section will cover how our program handles some of the Simple(High colour step), Moderate and Intricate(Low colour step) test cases.
 
-###FDC1
-####Simple
+### FDC1
+#### Simple
+#### Moderate
+#### Intricate
+
+### FDC2
+#### Simple
+#### Moderate
+#### Intricate
