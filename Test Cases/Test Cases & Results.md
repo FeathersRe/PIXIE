@@ -6,13 +6,22 @@ For our purpose, the key assessment criteria betweeen the test cases will be deg
 Hence, the following section will cover how our program handles some of the Simple(High colour step), Moderate and Intricate(Low colour step) test cases.
 
 ### FDC1
+Assessment criteria:
+
+![Criteria1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/criteria1.png) 
+
 #### Simple
 Original:
+
 ![S1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1.png) 
+
 Converted:
+
 ![S1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1_FDC1.png)
+
 Settings: Pixel_size:5 Tolerance:700 Colourstep: 16 Ink_percentage: 0.7
-Outcome: Acceptable, Lines are accurately identified. Image resemble pixelated 
+
+Outcome: Acceptable, Lines are accurately identified and Image resemble pixelation.
 ![S2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2.jpg) ![S2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2_FDC1.jpg)
 
 #### Moderate
@@ -26,6 +35,9 @@ Outcome: Acceptable, Lines are accurately identified. Image resemble pixelated
 ![I2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2.jpg) ![I2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/i_2_FDC1.jpg)
 
 ### FDC2
+Assessment criteria:
+
+![Criteria2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/criteria2.png) 
 #### Simple
 ![S1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1.png) ![S1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_1_FDC2.png)
 
