@@ -1,7 +1,7 @@
 ## Program Testing
-Considering that our project is dealing with image processing, selecting the appropriate image resources greatly determines our testing effectiveness.
+Considering that our project is dealing with image processing, selecting the appropriate image resources greatly affects the effectiveness of our testing.
 
-For our purpose, the key assessment criteria betweeen the test cases will be degree of colour step. This is mainly because the most integral and easily buggeed section of both First degree conversion(FDC1) and Final degree conversion(FDC2) goes around identifying some feature from the resource image. (For FDC1, it is mainly the image's outlines. For FDC2, it is the ability to seperate key characterisitcs from other counterparts) A image with high colour steps will likely lead to highly distinguishable image areas, while a image with low colour steps will imply a frequent occurance of non-differentiable sections, largely increasing the diffculty in image analysation.
+For our purpose, the key selection criteria of the test cases will be the degree of colour step. This is mainly because the most integral and easily buggeed section of both First degree conversion(FDC1) and Final degree conversion(FDC2) goes around identifying some feature from the resource image. (For FDC1, it is mainly the image's outlines. For FDC2, it is the ability to seperate key characterisitcs from other counterparts) A image with high colour steps will likely lead to highly distinguishable image areas, while a image with low colour steps will imply a frequent occurance of sections with hardly differentiable colour series, thus largely increasing the diffculty in image analysation.
 
 Hence, the following section will cover how our program handles some of the Simple(High colour step), Moderate and Intricate(Low colour step) test cases.
 
@@ -44,15 +44,15 @@ Pixel_size:10 Tolerance:500 Colourstep:16 Ink_percentage:0.4
 
 ![M1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1.png) 
 
+<b>Converted:<b>
+
+![m1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1_FDC1.png)
+
 <b>Settings:<b> 
 
 Pixel_size:10 Tolerance:500 Colourstep:16 Ink_percentage:0.3
 
 <b>Outcome:<b> Minimumlly acceptable. Lines are accurately identified, but no obvious pixelation is seen.
-
-<b>Converted:<b>
-
-![m1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1_FDC1.png)
 
 <b>Original:<b>
 
