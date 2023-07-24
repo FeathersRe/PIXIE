@@ -24,6 +24,10 @@ Settings: Pixel_size:5 Tolerance:700 Colourstep: 16 Ink_percentage: 0.7
 Outcome: Acceptable, Lines are accurately identified and Image resemble pixelation.
 ![S2](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2.jpg) ![S2_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/s_2_FDC1.jpg)
 
+Settings: Pixel_size:10 Tolerance:500 Colourstep: 16 Ink_percentage: 0.4
+
+Outcome: Acceptable, Lines are accurately identified and Image resemble pixelation.
+
 #### Moderate
 ![M1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1.png) ![m1_FDC1](https://github.com/FeathersRe/PIXIE/blob/main/Test%20Cases/Test%20Pics/m_1_FDC1.png)
 
