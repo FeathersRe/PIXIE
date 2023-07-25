@@ -81,6 +81,11 @@ For our purposes, we selected the pixel character model from Civitai by afei520 
 
 3. When the process is completed. The following notification would pop-up to notify the end of the process.
 
+![um9](Pics/um9.png)
+
+4. The output portrait can then be found in the output folder (under the working directory).
+   
+
 
 
 
