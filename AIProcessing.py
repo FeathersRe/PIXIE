@@ -13,7 +13,7 @@ def generation(SD_path, Lora_path, prompt, output_path, height, width):
 
     '''
     Fusing Lora model on top of SD base model
-    Credits to Haofan Wang, Qixun Wang: https://github.com/cloneofsimo/lora
+    Credits to Haofan Wang, Qixun Wang: https://github.com/haofanwang/Lora-for-Diffusers
     '''
 
     LORA_PREFIX_UNET = 'lora_unet'
@@ -78,9 +78,8 @@ def generation(SD_path, Lora_path, prompt, output_path, height, width):
         for item in pair_keys:
             visited.append(item)
 
-    '''
-    Generating the needed picture
-    '''
+    
+    #Generating the needed picture
     
     pipeline = pipeline.to("cuda")
     with torch.no_grad():
