@@ -138,8 +138,6 @@ Identifying key characteristics in the image is also particularly tricky, as hav
 - [X] Establish Final-Degree-Conversion of in-depth pixelation functions resembling key characteristics
 - [X] Establish interactive visual designs in UI
 - [X] General Debugging(Improvement of output quality, compatability with systems etc.)
-### Future progresss
-- [ ] Compilation of Program
 
 ## Tech Stack
 #### -OpenCV
