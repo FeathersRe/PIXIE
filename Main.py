@@ -75,9 +75,9 @@ class start(ttk.Frame):
     def confirm(self):
         selected_mode = self.mode.get()
         selected_file = self.filename.get()
-        if not os.path.exists(os.path.join(os.getcwd(),"Inputs")):
+        if not os.path.exists(os.path.join(os.getcwd(),"Inputs")): #Creating the input file
             os.mkdir(os.path.join(os.getcwd(),"Inputs"))
-        if not os.path.exists(os.path.join(os.getcwd(),"Outputs")):
+        if not os.path.exists(os.path.join(os.getcwd(),"Outputs")): #Creating the output file
             os.mkdir(os.path.join(os.getcwd(),"Outputs"))
         filename = os.path.basename(selected_file) #Obtaining the filename
         image_path = os.path.join(os.path.join(os.getcwd(),"Inputs"), filename) 

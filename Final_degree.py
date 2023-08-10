@@ -16,6 +16,7 @@ class final_degree_interface(ttk.Frame):
 
         self.create_confirm_section()
 
+    #Styling interactive UI for the final degree conversion
     def create_confirm_section(self):
         lbl_text = "Click Render to begin Conversion!"
         confirm_section = ttk.Frame(self.root, padding = 10)
@@ -28,8 +29,11 @@ class final_degree_interface(ttk.Frame):
         cnl_btn = ttk.Button(master=confirm_section, text="Cancel", command=self.cancel, bootstyle=DANGER, width = 6,)
         cnl_btn.pack(fill = X)
 
+    #Initating picture generation
     def render(self):
         Messagebox.show_info(message="Conversion is ongoing, please wait!", title="Ongoing")
+        
+        #Using the deepdanbooru model to identify key features from the resource picture
         deepdanbooru_model_path = './deepdanbooru_model'
         os.system("deepdanbooru evaluate {}... --project-path {} --allow-folder --save-txt".format(self.path, deepdanbooru_model_path))
         tag_path = Path(self.path).with_suffix('.txt')
@@ -37,8 +41,11 @@ class final_degree_interface(ttk.Frame):
             content = file.readline().split(',')
             del content[-1]
             content = ", ".join(content)
+
         SD_path = './sd_model/SDV15'
         Lora_path = './lora_model/pixel-portrait-v1.safetensors'
+        
+        #Generating the picture from functions in AIProcessing.py
         generation(SD_path, Lora_path, content, self.out, height = 512, width = 512)
         Messagebox.show_info(message="Your image is in the output folder!", title="Success")
         self.quit()

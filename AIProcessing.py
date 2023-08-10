@@ -5,10 +5,11 @@ from diffusers import StableDiffusionPipeline
 
 def generation(SD_path, Lora_path, prompt, output_path, height, width):
     
-
+    #Loading the SD model
     pipeline = StableDiffusionPipeline.from_pretrained(SD_path,torch_dtype=torch.float32)
     pipeline.scheduler = DPMSolverMultistepScheduler.from_config(pipeline.scheduler.config)
 
+    #Loading the Lora model
     state_dict = load_file(Lora_path)
 
     '''
@@ -78,11 +79,10 @@ def generation(SD_path, Lora_path, prompt, output_path, height, width):
         for item in pair_keys:
             visited.append(item)
 
-    
-    #Generating the needed picture
-    
+    #Generating the needed picture through the pipeline
     pipeline = pipeline.to("cuda")
     with torch.no_grad():
+        #Giving additional commands to the SD engine to style the pictures. Prompt generated from the resource picture is used here.
         image = pipeline(prompt=prompt, height=height, width=width, num_inference_steps=25,).images[0]
 
     image.save(output_path)

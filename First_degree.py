@@ -2,7 +2,7 @@ import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 from OpencvResize import cv_process
 from ttkbootstrap.dialogs import Messagebox
-from PIL import ImageTk
+from PIL import ImageTk, Image
 
 
 class first_degree_interface(ttk.Frame):
@@ -12,12 +12,8 @@ class first_degree_interface(ttk.Frame):
         self.path = image_path
         self.out = output_path
         self.pack(fill=BOTH, expand = YES)
-        self.pixel_size = ttk.IntVar()
-        self.acceptance = ttk.IntVar()
-        self.colour = ttk.IntVar()
-        self.ink = ttk.DoubleVar()
-
-        self.filename = ImageTk.PhotoImage(file= self.path)
+        self.image = Image.open(self.path)
+        self.filename = ImageTk.PhotoImage(self.image.resize((500, 500)))
 
         for i in range(2):
             self.columnconfigure(i, weight=1)
@@ -29,51 +25,46 @@ class first_degree_interface(ttk.Frame):
         col2 = ttk.Frame(self, padding = 10)
         col2.grid(row=0, column=1, sticky = NSEW)
         
-        self.create_control_bar(col1, self.pixel_size, self.acceptance, self.colour, self.ink)
-        self.create_picture_preview(col2)
-        self.create_confirm_section(col2)
+        #Setting up the control panel for user settings
+        self.create_control_panel(col1)
 
-    def create_control_bar(self, master, pixel_size, acceptance, colour_step, ink):
+        #Setting up the picture preview section
+        self.create_picture_preview(col2)
+
+        #Setting up the confirmation button and cancel button section
+        self.create_confirm_section(col2)
+    
+    #Setting up the interactive scale bars
+    def create_bar(self, master, value):
+        self.setvar(value[0], value[1])
+
+        frame = ttk.Frame(master)
+        frame.pack(fill=X, padx=(20,0), pady=5)
+
+        lbl = ttk.Label(frame, text=value[0]+":\t")
+        lbl.pack(side=LEFT)
+
+        #Setting up the adjustment bar
+        adjustment_bar = ttk.Scale(master=frame, value = value[1], from_=value[2], to=value[3], command=lambda x=value[1], y=value[0]: self.update_value(x, y)) #Operation is linked to the update_value function to consistently update the display value
+        adjustment_bar.pack(side=LEFT, fill=X, expand=YES, padx=5)
+
+        val = ttk.Label(master=frame, textvariable=value[0])
+        val.pack(padx = 5)
+
+    #Consistently update of the display value after user input
+    def update_value(self, value, name):
+        self.setvar(name, f"{float(value):.0f}")
+
+    def create_control_panel(self, master):
 
         control_info = ttk.Labelframe(master, text="Pixelation Settings", padding = 10)
         control_info.pack(side=TOP, fill=BOTH, expand=YES)
 
-        pixel_frame = ttk.Frame(control_info)
-        pixel_frame.pack(fill=X, padx=(20,0), pady=5)
+        settings = [("Pixel size", 5, 1, 10), ("Acceptance Level", 700, 300, 1000), ("Colour Step", 16, 1, 256), ("Ink percentage(%)", 50, 30, 70)]
 
-        lbl = ttk.Label(pixel_frame, text="Pixel Size:\t")
-        lbl.pack(side=LEFT)
+        for value in settings:
+            self.create_bar(control_info, value)
         
-        pixel_bar = ttk.Scale(pixel_frame, variable = pixel_size, value = 5, from_=1, to=10)
-        pixel_bar.pack(side=LEFT, fill=X, expand=YES, padx=5)
-
-        acceptance_frame = ttk.Frame(control_info)
-        acceptance_frame.pack(fill=X, padx=(20,0), pady=5)
-
-        lbl = ttk.Label(acceptance_frame, text="Acceptance Level:\t")
-        lbl.pack(side=LEFT)
-
-        acceptance_bar = ttk.Scale(acceptance_frame, variable = acceptance, value = 700, from_=300, to=1000)
-        acceptance_bar.pack(side=LEFT, fill=X, expand=YES, padx=5)
-
-        colour_frame = ttk.Frame(control_info)
-        colour_frame.pack(fill=X, padx=(20,0), pady=5)
-
-        lbl = ttk.Label(colour_frame, text="Colour Step:\t")
-        lbl.pack(side=LEFT)
-
-        colour_bar = ttk.Scale(colour_frame, variable = colour_step, value = 16, from_=1, to=256)
-        colour_bar.pack(side=LEFT, fill=X, expand=YES, padx=5)
-
-        ink_frame = ttk.Frame(control_info)
-        ink_frame.pack(fill=X, padx=(20,0), pady=5)
-
-        lbl = ttk.Label(ink_frame, text="Ink percentage:\t")
-        lbl.pack(side=LEFT)
-
-        ink_bar = ttk.Scale(ink_frame, variable = ink, value = 0.5, from_=0.3, to=0.7)
-        ink_bar.pack(side=LEFT, fill=X, expand=YES, padx=5)
-
     def create_picture_preview(self, master):
         
         picture_display = ttk.Labelframe(master, text = "Picture Preview", padding = 10)
@@ -97,14 +88,13 @@ class first_degree_interface(ttk.Frame):
         cnl_btn.pack()
         
     def confirm(self):
-        pixel_size = self.pixel_size.get()
-        acceptance = self.acceptance.get()
-        colour_step = self.colour.get()
-        ink_percentage = round(self.ink.get(), 1)
+        pixel_size = self.getvar("Pixel size")
+        acceptance = self.getvar("Acceptance Level")
+        colour_step = self.getvar("Colour Step")
+        ink_percentage = round(self.getvar("Ink percentage(%)")*0.01, 1)
         img_path = self.path
         output_path = self.out
         cv_process(img_path, output_path, pixel_size, acceptance, colour_step, ink_percentage)
-
 
     def done(self):
         Messagebox.show_info(message="Your image is in the output folder!", title="Success")
