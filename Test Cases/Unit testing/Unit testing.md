@@ -1,0 +1,3 @@
+## Unit testing
+During implementation, PIXIE is divided into 2 seperate units: First degree conversion(OpencvResize.py, First_degree.py) and Final degree conversion(Final_degree.py, AIProcessing.py). Testing under this section will surround the functioning of this 2 features.
+
