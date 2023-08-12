@@ -130,7 +130,7 @@ A common way to utilise stable diffusion in image processing is through the use 
 Identifying key characteristics in the image is also particularly tricky, as having an accurately trained identification model will necessarily require a considerablely large amount of time and training resources. In our implementation, tagging of these characteristics were made possible with the help of the [DeepDanbooru Lib](https://github.com/KichangKim/DeepDanbooru). The reason behind choosing the system was that it not only has high compatablity with the text2img module of Stable Diffusion, but also has readily trained dataset which could be called for evluation with only a single line of command.
 
 ## Course of project
-### Compeleted(as of MS3)
+### Compeleted(as of 11 Aug)
 - [X] Establish a functioning General Interface
 - [X] Establish a functioning First-Degree-Conversion(FDC1) Interface
 - [X] Establish First-Degree-Conversion of basic pixelation functions
