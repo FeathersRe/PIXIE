@@ -30,7 +30,7 @@ dialogues and menu presentations.
 
 ![Mode 1 Effect](Pics/fig1.1.png)
 
-Mode 2 - Final Degree Conversion. ~~In this mode, Pixie will aim to map the user input
+Mode 2 - Final Degree Conversion. In this mode, Pixie will aim to map the user input
 onto our program’s general character template. To establish this, Pixie will rely on the
 use of AI (with Stable Diffusion as the linkage platform between the image and an AI
 model) to accurately lift out and collect information on important areas of the input
@@ -41,7 +41,7 @@ Technical focuses under this conversion will be the utilisation of Stable
 Diffusion to produce the end product, as well as back-end linking of the platform to
 our software to ensure users will be able to complete all operations by only our
 program’s UI. Ideally, the simplified and easily made-to-move nature of end products
-under this conversion will be very suitable in actual gameplay presentations.~~
+under this conversion will be very suitable in actual gameplay presentations.
 
 ![Mode 2 Effect](Pics/fig1.2.png)
 
